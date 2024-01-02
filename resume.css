@@ -1,0 +1,88 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Poppins',sans-serif;
+}
+
+#header{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  flex-wrap:wrap;
+}
+
+#header .profilepic img{
+  width:10vh;
+  height:10vh;
+  clip-path:circle(50%);
+  margin:20px;
+}
+
+#header .job h1{
+  font-size:40px;
+  font-weight:300;
+  color:#1a1a1a;
+}
+
+#header #contact .name h1{
+  font-size:33px;
+  font-weight:300;
+  color:#1a1a1a;
+}
+
+#header #contact{
+  margin:20px;
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+  justify-content:flex-start;
+}
+/*
+#main .container{
+  display:flex;
+  justify-content:space-between;
+  flex-wrap:wrap;
+  margin: 10px;
+}
+*/
+
+#main .container{
+  margin:20px;
+}
+
+#main .container .aboutme{
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  width:45vw;
+  height:17vh;
+  padding: 0 20px 10px 0;
+}
+
+#main .container .aboutme h1{
+  font-weight:300;
+  color:#1a1a1a;
+  font-size:27px;
+}
+
+#main .container .aboutme p{
+  font-weight:300;
+  text-align:justify;
+  line-height:22px;
+}
+
+#main .container .skills{
+  width:45vw;
+  height:70vh;
+}
+
+#main .container .skills .skill-container{
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+  justify-content:flex-start;
+}
+
+
+

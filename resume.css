@@ -115,12 +115,16 @@
   padding-bottom:4px;
   flex-wrap:wrap;
   width:45vw;
-  height:15vh;
+  height:12.5vh;
 }
 
 #main .container .education-container p{
   font-weight:400;
   text-align:left;
+}
+
+#main .container .certificates .certificate1{
+  margin-bottom:10px;
 }
 
 #main .container .certificates .certificate1 h2{
@@ -134,6 +138,7 @@
   font-weight:500;
   text-align:left;
 }
+
 
 
 

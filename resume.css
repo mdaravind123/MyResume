@@ -46,16 +46,12 @@
   justify-content:flex-start;
   flex-wrap:wrap;
 }
-/*
-#main .container{
-  display:flex;
-  justify-content:space-between;
-  flex-wrap:wrap;
-  margin: 10px;
-}
-*/
 
 #main .container{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-between;
+  gap:5px;
   margin:20px;
 }
 
@@ -70,7 +66,12 @@
   margin-bottom:10px;
 }
 
-#main .container .aboutme h1,#main .skills .skill-container h1,#main .container .education h1,#main .container .certificates h1{
+#main .container .aboutme h1,
+#main .skills .skill-container h1,
+#main .container .education h1,
+#main .container .certificates h1,
+#main .container .projects h1,
+#main .container .acheivements h1{
   font-weight:300;
   color:#1a1a1a;
   font-size:27px;
@@ -106,6 +107,12 @@
   flex-wrap:wrap;
 }
 
+#main .container .skills .skill-container .small-container img{
+  width:20px;
+  height:20px;
+  background-color:white;
+}
+
 #main .container .education-container{
   display:flex;
   align-items:flex-start;
@@ -123,21 +130,73 @@
   text-align:left;
 }
 
-#main .container .certificates .certificate1{
+#main .container .certificates{
+  display:flex;
+  align-items:flex-start;
+  justify-content:flex-start;
+  flex-direction:column;
+  flex-wrap:wrap;
+  gap:3px;
+  padding-bottom:4px;
+  width:45vw;
+  height:40vh;
+}
+
+#main .container .certificates .certificate1,
+#main .container .projects .project1{
   margin-bottom:10px;
 }
 
-#main .container .certificates .certificate1 h2{
+#main .container .certificates .certificate1 h2,
+#main .container .projects .project1 h2{
   font-weight:300;
   color:#1a1a1a;
   font-size:24px;
   padding-bottom:5px;
 }
 
-#main .container .certificates .certificate1 p{
+#main .container .certificates .certificate1 p,
+#main .container .projects .project1 p{
   font-weight:500;
   text-align:left;
 }
+
+#main .container .projects{
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+  justify-content:flex-start;
+  flex-wrap:wrap;
+  gap:3px;
+  padding-bottom:5px;
+  width:49vw;
+  height:48vh;
+}
+
+#main .container .acheivements{
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+  justify-content:flex-start;
+  flex-wrap:wrap;
+  gap:3px;
+  padding-bottom:5px;
+  width:46vw;
+  height:18vh;
+}
+
+#main .container .acheivements .acheivements1{
+  display:flex;
+  align-items:flex-start;
+  justify-content:flex-start;
+}
+
+
+
+
+
+
+
 
 
 
